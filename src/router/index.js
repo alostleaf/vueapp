@@ -8,6 +8,7 @@ Vue.use(Router)
 
 export default new Router({
   linkActiveClass:'lactive',
+  mode:'hash',
   routes: [{
     path: '/',
     name: 'Index',
